@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 20px 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #00796b;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #00796b;
+            color: #fff;
+        }
+        .penguin-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group button {
+            background-color: #00796b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Penguin Page</h1>
+        <p>Welcome to Penguin Page where you can submit penguin photos, drawings, and even play penguin games!</p>
+    </header>
+    <nav>
+        <a href="#games">Games</a>
+        <a href="#photos">Photos</a>
+        <a href="#drawings">Drawings</a>
+        <a href="#submit">Submit Form</a>
+    </nav>
+    <section id="games">
+        <h2>Penguin Games</h2>
+        <p>Enjoy a variety of fun and interactive penguin-themed games!</p>
+        <img src="https://example.com/penguin_game.jpg" alt="Penguin Games" class="penguin-img">
+    </section>
+    <section id="photos">
+        <h2>Penguin Photos</h2>
+        <p>Explore a gallery of adorable penguin photos submitted by our community!</p>
+        <img src="https://example.com/penguin_photos.jpg" alt="Penguin Photos" class="penguin-img">
+    </section>
+    <section id="drawings">
+        <h2>Penguin Drawings</h2>
+        <p>Check out beautiful penguin drawings created by our talented users!</p>
+        <img src="https://example.com/penguin_drawings.jpg" alt="Penguin Drawings" class="penguin-img">
+    </section>
+    <section id="submit">
+        <h2>Submit Your Work</h2>
+        <p>Have a penguin photo or drawing? Submit it here!</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Penguin Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
